@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Builds</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Web Name">
+        </div>
+        <nav>
+            <a href="#">Products</a>
+            <a href="#" class="active">PC Builds</a>
+            <div class="auth-section">
+                <a href="#">Sign In</a>
+                <div class="account">
+                    <img src="profile-placeholder.png" alt="User" class="account-icon">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <button class="save-button" onclick="saveCSV()">Save as</button>
+            <button class="new-button" onclick="clearBuild()">New</button>
+            <button class="compatibility-button" onclick="checkCompatibility()">Compatibility</button>
+            <button class="wattage-button" onclick="calculateWattage()">Estimated Wattage</button>
+        </div>
+
+        <div class="build-area">
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th class="small-column">Select</th>
+                    <th>Product</th>
+                    <th>Wattage</th>
+                    <th>From</th>
+                    <th class="small-column">Remove</th>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td class="small-column"><button onclick="searchComponent('cpu')">🔍</button></td>
+                    <td><span id="cpu-product">-</span></td>
+                    <td><span id="cpu-wattage">-</span>W</td>
+                    <td><span id="cpu-store">-</span></td>
+                    <td class="small-column"><button class="remove" onclick="removeComponent('cpu')">×</button></td>
+                </tr>
+                <tr>
+                    <td>Motherboard</td>
+                    <td class="small-column"><button onclick="searchComponent('motherboard')">🔍</button></td>
+                    <td><span id="motherboard-product">-</span></td>
+                    <td><span id="motherboard-wattage">-</span>W</td>
+                    <td><span id="motherboard-store">-</span></td>
+                    <td class="small-column"><button class="remove" onclick="removeComponent('motherboard')">×</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td class="small-column"><button onclick="searchComponent('ram')">🔍</button></td>
+                    <td><span id="ram-product">-</span></td>
+                    <td><span id="ram-wattage">-</span>W</td>
+                    <td><span id="ram-store">-</span></td>
+                    <td class="small-column"><button class="remove" onclick="removeComponent('ram')">×</button></td>
+                </tr>
+                <tr>
+                    <td>GPU</td>
+                    <td class="small-column"><button onclick="searchComponent('gpu')">🔍</button></td>
+                    <td><span id="gpu-product">-</span></td>
+                    <td><span id="gpu-wattage">-</span>W</td>
+                    <td><span id="gpu-store">-</span></td>
+                    <td class="small-column"><button class="remove" onclick="removeComponent('gpu')">×</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

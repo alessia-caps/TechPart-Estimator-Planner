@@ -1,0 +1,146 @@
+[
+    {
+        "name": "ASROCK B450M-HDV R4.0 MATX Motherboard",
+        "brand": "asrock",
+        "category": "motherboard",
+        "price": 3150
+    },
+    {
+        "name": "ASROCK B550M Pro4 mATX Motherboard",
+        "brand": "asrock",
+        "category": "motherboard",
+        "price": 6150
+    },
+    {
+        "name": "ASROCK H610M-HDV/M.2 D5 mATX Motherboard",
+        "brand": "asrock",
+        "category": "motherboard",
+        "price": 4700
+    },
+    {
+        "name": "ASUS PRIME A520M-K Micro-ATX Motherboard",
+        "brand": "asus",
+        "category": "motherboard",
+        "price": 3200
+    },
+    {
+        "name": "ASUS PRIME A520M-K/CSM Micro-ATX Motherboard",
+        "brand": "asus",
+        "category": "motherboard",
+        "price": 3300
+    },
+    {
+        "name": "ASUS PRIME B450M-A II CSM mATX Motherboard",
+        "brand": "asus",
+        "category": "motherboard",
+        "price": 4700
+    },
+    {
+        "name": "Intel® Core™ Ultra 9 285K Desktop Processor",
+        "brand": "intel",
+        "category": "processor",
+        "price": 38200
+    },
+    {
+        "name": "Intel® Core™ Ultra 7 265K Desktop Processor",
+        "brand": "intel",
+        "category": "processor",
+        "price": 25500
+    },
+    {
+        "name": "Intel® Core™ Ultra 7 265 Desktop Processor",
+        "brand": "intel",
+        "category": "processor",
+        "price": 26400
+    },
+    {
+        "name": "Intel® Core™ Ultra 7 265KF Desktop Processor",
+        "brand": "intel",
+        "category": "processor",
+        "price": 25350
+    },
+    {
+        "name": "Intel® Core™ Ultra 5 245KF Desktop Processor",
+        "brand": "intel",
+        "category": "processor",
+        "price": 19100
+    },
+    {
+        "name": "Intel® Core™ Ultra 5 245K Desktop Processor",
+        "brand": "intel",
+        "category": "processor",
+        "price": 20200
+    },
+    {
+        "name": "ASUS Dual GeForce RTX™ 4070 SUPER OC Edition 12GB GDDR6X 192-bit Graphics Card",
+        "brand": "asus",
+        "category": "graphics card",
+        "price": 44150
+    },
+    {
+        "name": "ASUS Dual GeForce RTX™ 4060 EVO OC Edition 8GB GDDR6 128-bit Graphics Card",
+        "brand": "asus",
+        "category": "graphics card",
+        "price": 21000
+    },
+    {
+        "name": "ASUS Dual GeForce RTX™ 4060 Ti SSD OC Edition 8GB GDDR6 128-bit Graphics Card",
+        "brand": "asus",
+        "category": "graphics card",
+        "price": 30500
+    },
+    {
+        "name": "ASUS Dual GeForce RTX™ 4060 V2 OC Edition 8GB GDDR6 128-bit Graphics Card",
+        "brand": "asus",
+        "category": "graphics card",
+        "price": 21000
+    },
+    {
+        "name": "ASUS Dual GeForce® GTX 1650 OC Edition P-EVO 4GB GDDR6 128-bit Graphics Card",
+        "brand": "asus",
+        "category": "graphics card",
+        "price": 9000
+    },
+    {
+        "name": "ASUS Dual Radeon™ RX 6600 V3 8GB GDDR6 128-bit Graphics Card",
+        "brand": "asus",
+        "category": "graphics card",
+        "price": 13600
+    },
+    {
+        "name": "ADATA 16GB DDR4 3200MHz XPG SPECTRIX D35G RGB Desktop Memory",
+        "brand": "adata",
+        "category": "memory modules",
+        "price": 1750
+    },
+    {
+        "name": "ADATA 16GB DDR5 PC4800MHz SO-DIMM Memory Module",
+        "brand": "adata",
+        "category": "memory modules",
+        "price": 2100
+    },
+    {
+        "name": "ADATA 8GB DDR4 3200MHz XPG GAMMIX D35 (AX4U32008G16A-SBKD35) Desktop Memory",
+        "brand": "adata",
+        "category": "memory modules",
+        "price": 1150
+    },
+    {
+        "name": "ADATA 8GB DDR4 PC3200MHZ SODIMM RAM",
+        "brand": "adata",
+        "category": "memory modules",
+        "price": 1050
+    },
+    {
+        "name": "ADATA 8GB DDR5 PC4800MHz (AD5S48008G-S) SODIMM Memory",
+        "brand": "adata",
+        "category": "memory modules",
+        "price": 1400
+    },
+    {
+        "name": "G.SKILL Trident Z5 Neo RGB 32GB (16GBx2) DDR5-6000 Memory Kit (F5-6000J3636F16GX2-TZ5NR)",
+        "brand": "g.skill",
+        "category": "memory modules",
+        "price": 7150
+    }
+]

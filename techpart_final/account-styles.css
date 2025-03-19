@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #d3d3d3;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* border: solid; */
+}
+
+.build-area {
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 80%;
+    height: 80vh;
+    border: solid 1px;
+    border-color: #ddd;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.accountImage{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.accountImageandDetails{
+    display: flex;
+    justify-content: center;
+}
+
+.accountBasicDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.accountBasicDetails p {
+    margin: 0;  /* Removes default paragraph margin */
+    padding: 0;
+}
+
+
+.image-placeholder {
+    width: 100px;  /* Adjust size as needed */
+    height: 100px;
+    background-color: white;
+    border-radius: 50%; /* Makes it a circle */
+    border: 2px solid #ccc; /* Optional border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+.accountDetail{
+    /* border: solid; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding: 8px 4px;
+    font-size: 14px;
+    /* border-radius: 10px; */
+    border: solid 1px;
+    border-color: #ddd;
+    width: 98%;
+}
+
+button{
+    width: 20%;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    align-self: center;
+}
+
+button:hover{
+    background-color: #a6a6a4;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

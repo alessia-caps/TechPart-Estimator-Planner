@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Web Name">
+        </div>
+        <nav>
+                <a href="#">Sign In</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="build-area">
+            <h1>Login</h1>
+
+            <!-- Error message will be displayed here -->
+            <p id="error-message" style="color: red;"></p>
+
+            <div class="detail">
+                <form action="login.php" method="POST">
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Enter your email..." required>
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Enter your password..." required>
+                    <button type="submit">Login</button>
+                </form>                
+            </div>
+        </div>
+        <br>
+        <a href="register.html">No account yet? Register Now</a>
+    </div>
+
+    <script>
+        // Get error message from URL and display it
+        const urlParams = new URLSearchParams(window.location.search);
+        const error = urlParams.get('error');
+        if (error) {
+            document.getElementById('error-message').textContent = decodeURIComponent(error);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #697C70;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #65786D;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+    /* border: solid; */
+}
+
+.build-area {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    border: solid 1px #ddd;
+    display: flex;  /* Use flexbox instead of grid */
+    justify-content: space-between; /* Space out left & right sections */
+    align-items: center; /* Align content vertically */
+}
+
+h1 {
+    font-size: 32px;
+    width: 40%; /* Take up left side */
+    margin-left: 40px;
+}
+
+.detail {
+    width: 60%; /* Right side */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+}
+
+input {
+    padding: 8px 4px;
+    font-size: 14px;
+    border: solid 1px #ddd;
+    width: 100%;
+}
+
+button {
+    width: 50%;
+    background-color: #D196B0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #77465b;
+}
+
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    padding-top: 50px;
+}

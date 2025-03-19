@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #697C70;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+background-color: #65786D;
+}
+
+.header .logo img {
+height: 40px;
+}
+
+nav {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-weight: bold;
+}
+
+nav a.active {
+text-decoration: underline;
+}
+
+.auth-section {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.account-icon {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-section {
+    width: 100%;
+    background-color: #476252;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.left-section {
+    width: 25%;
+    background: #eaeaea;
+    padding: 25px;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.right-section {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 5px;
+font-size: 14px;
+}
+
+.chatbot-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.chatbot-link:hover {
+    background-color: #555;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #D196B0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.chatbot-container {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000;
+}
+
+.chatbot-link {
+display: inline-block;
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+background-color: #444;
+border-radius: 8px;
+transition: background 0.3s, transform 0.2s;
+font-size: 14px;
+font-weight: bold;
+}
+
+.chatbot-link:hover {
+background-color: #555;
+transform: scale(1.05);
+}
+
+/* Chatbot Window (Hidden Initially) */
+.chat-window {
+display: none;
+position: fixed;
+bottom: 80px;
+right: 20px;
+width: 320px;
+height: 420px;
+background: white;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+border: 1px solid #ccc;
+overflow: hidden;
+z-index: 1000;
+display: flex;
+flex-direction: column; /* Makes sure content stacks properly */
+}
+
+/* Chat Header */
+.chat-header {
+background: #D196B0;
+color: white;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+}
+
+.chat-header button {
+background: transparent;
+border: none;
+color: #D196B0;
+font-size: 16px;
+cursor: pointer;
+}
+
+/* Chat Body */
+.chat-body {
+flex-grow: 1;
+padding: 10px;
+overflow-y: auto;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+/* Chat Footer */
+.chat-footer {
+display: flex;
+padding: 10px;
+border-top: 1px solid #ccc;
+position: sticky;
+}
+
+.chat-footer input {
+flex-grow: 1;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.chat-footer button {
+padding: 8px 12px;
+background-color: #697C70;
+color: white;
+border: none;
+cursor: pointer;
+margin-left: 5px;
+border-radius: 5px;
+}
+
+/* Chat Messages */
+.bot-message {
+background: #f0f0f0;
+padding: 8px;
+border-radius: 5px;
+max-width: 80%;
+}
+
+.user-message {
+align-self: flex-end;
+background: #D196B0;
+color: white;
+padding: 8px;
+border-radius: 5px;
+max-width: 80%;
+}
+
+.chatbot-response {
+white-space: pre-line; /* Ensures line breaks are rendered */
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.6; /* Add space between lines */
+padding: 8px;
+border-radius: 5px;
+}
+
+
+.chatbot-response a {
+color: #b26788; /* Make links stand out */
+text-decoration: none;
+}
+
+.chatbot-response a:hover {
+text-decoration: underline;
+}
